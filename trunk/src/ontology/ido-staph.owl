@@ -1,0 +1,377 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ido/ido-staph.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ido/ido-staph.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:ido="http://purl.obolibrary.org/obo/ido/"
+     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:CHEBI="http://purl.org/obo/owl/CHEBI#"
+     xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:TRANS="http://purl.org/obo/owl/TRANS#"
+     xmlns:CARO="http://purl.org/obo/owl/CARO#"
+     xmlns:NCBITaxon="http://purl.org/obo/owl/NCBITaxon#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
+     xmlns:GO="http://purl.org/obo/owl/GO#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ido/ido-staph.owl">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-10</dc:date>
+        <protege:defaultLanguage>en</protege:defaultLanguage>
+        <dc:creator>Lindsay Cowell</dc:creator>
+        <dc:creator>Albert Goldfain</dc:creator>
+        <rdfs:comment xml:lang="en">IDO-Staph is an ontology covering entities specific to Staph aureus infectious diseases. IDO-Staph is one of the IDO extension ontologies and follows the design principles, policies, and best practices of both the IDO consortium and the OBO Foundry. </rdfs:comment>
+        <rdfs:comment xml:lang="en">This ontology is in early development. Expect it to change.</rdfs:comment>
+        <rdfs:seeAlso>http://www.infectiousdiseaseontology.org/Home.html</rdfs:seeAlso>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000283"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000660 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IDO_0000660">
+        <rdfs:label xml:lang="en">results_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000661 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IDO_0000661">
+        <rdfs:label xml:lang="en">capable_of</rdfs:label>
+        <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+        <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IDO_0000664 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IDO_0000664">
+        <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#bearer_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#bearer_of">
+        <owl:inverseOf rdf:resource="http://purl.org/obo/owl/OBO_REL#inheres_in"/>
+        <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#DependentContinuant"/>
+        <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#IndependentContinuant"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#has_disposition -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#has_disposition">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/obo/owl/OBO_REL#bearer_of"/>
+        <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Disposition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#has_function -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#has_function">
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/obo/owl/OBO_REL#bearer_of"/>
+        <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Function"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#has_output -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#has_output"/>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#has_role -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#has_role">
+        <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Role"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#inheres_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#inheres_in"/>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#negatively_regulates -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#negatively_regulates"/>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#positively_regulates -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#positively_regulates"/>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#realized_by -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#realized_by">
+        <owl:inverseOf rdf:resource="http://purl.org/obo/owl/OBO_REL#realizes"/>
+        <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/snap#RealizableEntity"/>
+        <rdfs:range rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#realizes -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#realizes"/>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#results_in_formation_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#results_in_formation_of">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000660"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.org/obo/owl/OBO_REL#unfolds_in -->
+
+    <owl:ObjectProperty rdf:about="http://purl.org/obo/owl/OBO_REL#unfolds_in">
+        <rdfs:domain rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+                    <rdf:Description rdf:about="http://www.ifomis.org/bfo/1.1/snap#Site"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#contained_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#contained_in">
+        <owl:inverseOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#contains"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#contains -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#contains"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#derived_into -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#derived_into">
+        <owl:inverseOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#derives_from -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_participant -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_participant">
+        <owl:inverseOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#located_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#location_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#location_of"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#part_of -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#participates_in -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#participates_in"/>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#preceded_by -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#preceded_by">
+        <owl:inverseOf rdf:resource="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#precedes -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#precedes"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000000">
+        <rdfs:label xml:lang="en">Staphylococcus aureus infectious disease</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000436"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000001"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An infectious disease that has a Staphylococcus aureus infectious disorder as its material basis.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">OGMS-IDO disease-disorder-disease course logical schema</obo:IAO_0000119>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus infectious disease</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000001">
+        <rdfs:label xml:lang="en">Staphylococcus aureus infectious disorder</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000504"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_1280"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">&#39;Staphylococcus aureus infectious disorder&#39;</obo:IAO_0000111>
+        <obo:IAO_0000116 xml:lang="en">A few IDO core issues inherited here:
+(1) &#39;has_part&#39; may not be the perfect relation, but the best RO currently offers
+(2) How to handle polymicrobial infectioous disorders.  Is every polymicrobial disorder of which staph is a part also an Sa infectious disorder? </obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">An infectious disorder that has as part a Staphylococcus aureus organism.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">OGMS-IDO disease-disorder-disease course logical schema</obo:IAO_0000119>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000002">
+        <rdfs:label xml:lang="en">Staphylococcus aureus infectious disease course</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000495"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realizes"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000000"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">&#39;Staphylococcus aureus infectious disease course&#39;</obo:IAO_0000111>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A disease course that is the realization of a Staphylococcus aureus infectious disease</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">OGMS-IDO disease-disorder-disease course logical schema</obo:IAO_0000119>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_1280 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_1280">
+        <rdfs:label xml:lang="en">Staphylococcus aureus</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/NCBITaxon"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.3.1824) http://owlapi.sourceforge.net -->
+
