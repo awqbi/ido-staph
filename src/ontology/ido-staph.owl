@@ -42,17 +42,17 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000283"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
     
 
@@ -296,6 +296,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26130">
+        <rdfs:label xml:lang="en">biological pigment</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CHEBI#CHEBI_23367"/>
+        <obo:IAO_0000115 xml:lang="en">An endogenous molecular entity that results in a colour of an organism as the consequence of the selective absorption of light.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_36047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36047">
@@ -314,6 +325,17 @@
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/span#ProcessualEntity"/>
         <obo:IAO_0000115 xml:lang="en">A processual entity whose completion is hypothesized (by a healthcare provider) to alleviate the signs and symptoms associated with a disorder.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ogms.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001499">
+        <rdfs:label xml:lang="en">spherical</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
+        <obo:IAO_0000115 xml:lang="en">A spheroid quality inhering in a bearer by virtue of the bearer&#39;s resembling a ball (a sphere whose equatorial diameter is equal to the polar diameter).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
     </owl:Class>
     
 
@@ -350,12 +372,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_1280"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">&#39;Staphylococcus aureus infectious disorder&#39;</obo:IAO_0000111>
         <obo:IAO_0000116 xml:lang="en">A few IDO core issues inherited here:
 (1) &#39;has_part&#39; may not be the perfect relation, but the best RO currently offers
 (2) How to handle polymicrobial infectioous disorders.  Is every polymicrobial disorder of which staph is a part also an Sa infectious disorder? </obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">An infectious disorder that has as part a Staphylococcus aureus organism.</obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">&#39;Staphylococcus aureus infectious disorder&#39;</obo:IAO_0000111>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OGMS-IDO disease-disorder-disease course logical schema</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
@@ -533,11 +555,111 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000014">
+        <rdfs:label xml:lang="en">Staphyloxanthin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26130"/>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Staphyloxanthin</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">Staphyloxanthin is a carotenoid pigment that is produced by some strains of Staphylococcus aureus, and is responsible for the characteristic golden color that gives S. aureus its species name.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Staphyloxanthin"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/GO#GO_0004096 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0004096">
+        <rdfs:label xml:lang="en">catalase activity</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0008150"/>
+        <obo:IAO_0000115 xml:lang="en">Catalysis of the reaction: 2 hydrogen peroxide = O2 + 2 H2O.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">NOTE: The asserted parent &#39;molecular_function&#39; in GO is incompatible with the assertion that Sa has a part capable of catalase activity, which requires an occurrent reading of this term.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/GO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/GO#GO_0005575 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0005575">
+        <rdfs:label xml:lang="en">cellular_component</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <obo:IAO_0000115 xml:lang="en">The part of a cell or its extracellular environment in which a gene product is located. A gene product may be located in one or more parts of a cell and its location may be as specific as a particular macromolecular complex, that is, a stable, persistent association of macromolecules that function together.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/GO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/GO#GO_0006113 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0006113">
+        <rdfs:label xml:lang="en">fermentation</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0008150"/>
+        <obo:IAO_0000115 xml:lang="en">The anaerobic enzymatic conversion of organic compounds, especially carbohydrates, to other compounds, especially to ethyl alcohol, yielding energy in the form of adenosine triphosphate (ATP).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/GO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/GO#GO_0009060 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0009060">
+        <rdfs:label xml:lang="en">aerobic respiration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0008150"/>
+        <obo:IAO_0000115 xml:lang="en">The enzymatic release of energy from organic compounds (especially carbohydrates and fats) which requires oxygen as the terminal electron acceptor.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/GO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/GO#GO_0009275 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/GO#GO_0009275">
+        <rdfs:label xml:lang="en">Gram-positive-bacterium-type cell wall</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/GO#GO_0005575"/>
+        <obo:IAO_0000115 xml:lang="en">A layer of peptidoglycan found outside of the cytoplasmic membrane. The peptidoglycan is relatively thick (20-80nm) and retains the primary stain of the Gram procedure, thus cells appear blue after Gram stain. The cell walls often contain teichoic acids (acidic anionic polysaccharides) bound to the peptidoglycan. Examples of this component are found in Gram-positive bacteria.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/GO"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/NCBITaxon#NCBITaxon_1280 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_1280">
         <rdfs:label xml:lang="en">Staphylococcus aureus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0006113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0004096"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/NCBITaxon"/>
     </owl:Class>
 </rdf:RDF>
