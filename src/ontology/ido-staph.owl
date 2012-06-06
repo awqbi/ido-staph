@@ -44,17 +44,17 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000283"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
     
 
@@ -750,6 +750,105 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000020">
+        <rdfs:label xml:lang="en">Staphylococcus aureus alpha toxin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000550"/>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An exotoxin that is the major cytotoxic agent released by Staphylococcus aureus.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus alpha toxin</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">alpha-hemolysin</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Staphylococcus_aureus_alpha_toxin"/>
+        <rdfs:seeAlso rdf:resource="http://purl.bioontology.org/ontology/MSH/C021091"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000021">
+        <rdfs:label xml:lang="en">Staphylococcus aureus beta toxin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000550"/>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An exotoxin produced by Staphylococcus aureus that is a form of sphingomyelinase.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus beta toxin</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">beta-lysin</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Staphylococcus_aureus_beta_toxin"/>
+        <rdfs:seeAlso rdf:resource="http://purl.bioontology.org/ontology/MSH/C029878"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000022">
+        <rdfs:label xml:lang="en">Staphylococcus aureus delta toxin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000550"/>
+        <obo:IAO_0000115 xml:lang="en">An exotoxin produced by Staphylococcus aureus that has a wide spectrum of cytolytic activity.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Differentia does not sufficiently differentiate this from other Sa toxins</obo:IAO_0000116>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus delta toxin</obo:IAO_0000111>
+        <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Staphylococcus_aureus_delta_toxin"/>
+        <rdfs:seeAlso rdf:resource="http://purl.bioontology.org/ontology/MSH/C025971"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000023">
+        <rdfs:label xml:lang="en">exfoliatin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000550"/>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An exotoxin produced by Staphylococcus aureus that causes staphylococcal scalded skin syndrome.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Staphylococcal Exfoliative Toxin</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">exfoliatin</obo:IAO_0000111>
+        <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Exfoliatin"/>
+        <rdfs:seeAlso rdf:resource="http://purl.bioontology.org/ontology/MSH/D005083"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000024">
+        <rdfs:label xml:lang="en">toxic shock syndrome toxin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000550"/>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An exotoxin produced by Staphylococcus aureus that causes toxic shock syndrome.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">Should primary parent be superantigen?</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">TSST</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">toxic shock syndrome toxin</obo:IAO_0000111>
+        <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Toxic_shock_syndrome_toxin"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000025">
+        <rdfs:label xml:lang="en">Staphylococcal enterotoxin B</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000551"/>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An enterotoxin produced by Staphylococcus aureus.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Differentia does not differentiate this from other Sa enterotoxins.</obo:IAO_0000116>
+        <obo:IAO_0000111 xml:lang="en">Staphylococcal enterotoxin B</obo:IAO_0000111>
+        <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Staphylococcal_Enterotoxin_B"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/FMA#FMA_7195 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/FMA#FMA_7195">
@@ -826,19 +925,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009060"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0006113"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009275"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0006113"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -850,6 +943,12 @@
                         <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0004096"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/NCBITaxon"/>
