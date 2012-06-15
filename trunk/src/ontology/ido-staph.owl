@@ -415,6 +415,152 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/SO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000001">
+        <rdfs:label xml:lang="en">region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
+        <obo:IAO_0000115 xml:lang="en">A sequence_feature with an extent greater than zero. A nucleotide region is composed of bases and a polypeptide region is composed of amino acids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000101">
+        <rdfs:label xml:lang="en">transposable_element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001039"/>
+        <obo:IAO_0000115 xml:lang="en">A transposon or insertion sequence. An element that can insert in a variety of DNA sequences.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+        <rdfs:label xml:lang="en">sequence_feature</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#GenericallyDependentContinuant"/>
+        <obo:IAO_0000115 xml:lang="en">An extent of biological sequence.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sequenceontology.org/resources/pre-prints/jbi-preprint.pdf"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000208">
+        <rdfs:label xml:lang="en">terminal_inverted_repeat_element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000101"/>
+        <obo:IAO_0000115 xml:lang="en">A DNA transposable element defined as having termini with perfect, or nearly perfect short inverted repeats, generally 10 - 40 nucleotides long.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000704">
+        <rdfs:label xml:lang="en">gene</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115 xml:lang="en">A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000772">
+        <rdfs:label xml:lang="en">genomic_island</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001039"/>
+        <obo:IAO_0000115 xml:lang="en">A genomic island is an integrated mobile genetic element, characterized by size (over 10 Kb). It that has features that suggest a foreign origin. These can include nucleotide distribution (oligonucleotides signature, CG content etc.) that differs from the bulk of the chromosome and/or genes suggesting DNA mobility.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">LGC: Not sure this definition is correct.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000773">
+        <rdfs:label xml:lang="en">pathogenic island</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000772"/>
+        <obo:IAO_0000116 xml:lang="en">LGC: Shouldn&#39;t this be &#39;pathogenicity island&#39;?</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">Mobile genetic elements that contribute to rapid changes in virulence potential. They are present on the genomes of pathogenic strains but absent from the genomes of non pathogenic members of the same or related species.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000973 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000973">
+        <rdfs:label xml:lang="en">insertion_sequence</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000208"/>
+        <obo:IAO_0000115 xml:lang="en">A terminal_inverted_repeat_element that is bacterial and only encodes the functions required for its transposition between these inverted repeats.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001037">
+        <rdfs:label xml:lang="en">mobile genetic element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115 xml:lang="en">A nucleotide region with either intra-genome or intracellular moblity, of varying length, which often carry the information necessary for transfer and recombination with the host genome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001039">
+        <rdfs:label xml:lang="en">integrated_mobile_genetic_element</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001037"/>
+        <obo:IAO_0000115 xml:lang="en">An MGE that is integrated into the host chromosome.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001411">
+        <rdfs:label xml:lang="en">biological_region</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">A region defined by its disposition to be involved in a biological process.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0005855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0005855">
+        <rdfs:label xml:lang="en">gene_group</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001411"/>
+        <obo:IAO_0000115 xml:lang="en">A collection of related genes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/SO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/VO_0012391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/VO_0012391">
+        <rdfs:label xml:lang="en">MecA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <obo:IAO_0000116 xml:lang="en">Classified as &#39;Staphylococcus aureus protein&#39; in VO and given a vaccine-centric definition.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/VO"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ido/Sa_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000000">
@@ -458,12 +604,12 @@
                 <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_1280"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">&#39;Staphylococcus aureus infectious disorder&#39;</obo:IAO_0000111>
         <obo:IAO_0000116 xml:lang="en">A few IDO core issues inherited here:
 (1) &#39;has_part&#39; may not be the perfect relation, but the best RO currently offers
 (2) How to handle polymicrobial infectioous disorders.  Is every polymicrobial disorder of which staph is a part also an Sa infectious disorder? </obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">An infectious disorder that has as part a Staphylococcus aureus organism.</obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">&#39;Staphylococcus aureus infectious disorder&#39;</obo:IAO_0000111>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OGMS-IDO disease-disorder-disease course logical schema</obo:IAO_0000119>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
@@ -708,9 +854,9 @@
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A bacterial pneumonia whose materiall basis is a Staphylococcus aureus infectious disorder in the lungs. Staphylococcal pneumonia is realized by a disease course that includes inflammation of the lungs. </obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A bacterial pneumonia whose material basis is a Staphylococcus aureus infectious disorder in the lungs. Staphylococcal pneumonia is realized by a disease course that includes inflammation of the lungs. </obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">staphylococcal pneumonia</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.freemd.com/staphylococcus-pneumonia/overview.htm"/>
@@ -1101,6 +1247,626 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000038">
+        <rdfs:label xml:lang="en">MecI</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">MecI</obo:IAO_0000111>
+        <rdfs:seeAlso rdf:resource="http://purl.bioontology.org/ontology/MSH/C101640"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000039">
+        <rdfs:label xml:lang="en">MecR1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <obo:IAO_0000111 xml:lang="en">MecR1</obo:IAO_0000111>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:seeAlso rdf:resource="http://purl.bioontology.org/ontology/MSH/C101641"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000040">
+        <rdfs:label xml:lang="en">SCCMec</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000773"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000042"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000041"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A mobile genetic element in Staphylococcus aureus that carries the central determinant for broad-spectrum beta-lactam resistance encoded by the mecA gene and has the following features: (1) carriage of mecA in a mec gene complex, (2) carriage of ccr gene(s) (ccrAB or ccrC) in a ccr gene complex, (3) integration at a specific site in the staphylococcal chromosome, referred to as the integration site sequence for SCC (ISS), which serves as a target for ccr-mediated recombination, and (4) the presence of flanking direct repeat sequences containing the ISS. </obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">AG: The mobility of the genetic element is a disposition and should not be the primary classification of SCCMec. </obo:IAO_0000116>
+        <obo:IAO_0000111 xml:lang="en">SCCMec</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Staphylococcal cassette chromosome mec</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000041">
+        <rdfs:label xml:lang="en">ccr gene complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A gene complex that is composed of the ccr gene(s) and surrounding open reading frames (ORFs)</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">cassete chromosome recombinases</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">ccr gene complex</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.staphylococcus.net/Pages/ccrComplexEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000042">
+        <rdfs:label xml:lang="en">mec gene complex</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0005855"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A gene complex composed of mecA, its regulatory genes, and associated insertion sequences</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">mec gene complex</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+        <rdfs:seeAlso rdf:resource="http://www.staphylococcus.net/Pages/SCCmecComplexEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000043">
+        <rdfs:label xml:lang="en">ccr Type 1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000041"/>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A1B1.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">ccr Type 1</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000044">
+        <rdfs:label xml:lang="en">ccr Type 2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000041"/>
+        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A2B2.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">ccr Type 2</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000045">
+        <rdfs:label xml:lang="en">ccr Type 3</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000041"/>
+        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A3B3.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">ccr Type 3</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000046">
+        <rdfs:label xml:lang="en">ccr Type 4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000041"/>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A4B4.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">ccr Type 4</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000047">
+        <rdfs:label xml:lang="en">ccr Type 5</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000041"/>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes C1.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">ccr Type 5</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000048">
+        <rdfs:label xml:lang="en">ccr Type 6</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000041"/>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A5B3.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">ccr Type 6</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000049">
+        <rdfs:label xml:lang="en">ccr Type 7</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000041"/>
+        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A1B6.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">ccr Type 7</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000050">
+        <rdfs:label xml:lang="en">ccr Type 8</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000041"/>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A1B3.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">ccr Type 8</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000051">
+        <rdfs:label xml:lang="en">mec Class A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000042"/>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A mec gene complex that contains mecA, the complete mecR1 and mecI regulatory genes upstream of mecA, and the hyper-variable region (HVR) and insertion sequence IS431 downstream of mecA.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">mec Class A</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000052">
+        <rdfs:label xml:lang="en">mec Class B</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000042"/>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A mec gene complex composed of mecA, a truncated mecR1 resulting from the insertion of IS1272 upstream of mecA, and HVR and IS431 downstream of mecA</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">mec Class B</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000053">
+        <rdfs:label xml:lang="en">mec Class C1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000042"/>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A mec gene complex that contains mecA and truncated mecR1 by the insertion of IS431 upstream of mecA, and HVR and IS431 downstream of mecA, such that the two IS431 insertion sequences are in the same orientation</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">mec Class C1</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000054">
+        <rdfs:label xml:lang="en">mec Class C2</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000042"/>
+        <obo:IAO_0000115 xml:lang="en">A mec gene complex that contains mecA and truncated mecR1 by the insertion of IS431 upstream of mecA, and HVR and IS431 downstream of mecA, such that the two IS431 insertion sequences are in reversed orientations.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">mec Class C2</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000055">
+        <rdfs:label xml:lang="en">mec Class D</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000042"/>
+        <obo:IAO_0000115 xml:lang="en">A mec gene complex composed of mecA and ΔmecR1, but does not carry an insertion sequence downstream of ΔmecR1</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">mec Class D</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000056">
+        <rdfs:label xml:lang="en">mec Class E</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000042"/>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">mec Class E</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000057">
+        <rdfs:label xml:lang="en">SCCMec Type I</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000043"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000052"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">SCCMec Type I</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000058">
+        <rdfs:label xml:lang="en">SCCMec Type II</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000044"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000051"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">SCCMec Type II</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000059">
+        <rdfs:label xml:lang="en">SCCMec Type III</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000045"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000051"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">SCCMec Type III</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000060">
+        <rdfs:label xml:lang="en">SCCMec Type IV</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000044"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000052"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">SCCMec Type IV</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000062">
+        <rdfs:label xml:lang="en">SCCMec Type V</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000047"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000054"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">SCCMec Type V</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000063">
+        <rdfs:label xml:lang="en">SCCMec Type VI</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000046"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000052"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">SCCMec Type VI</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000064">
+        <rdfs:label xml:lang="en">SCCMec Type VII</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000047"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000053"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">SCCMec Type VII</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000065">
+        <rdfs:label xml:lang="en">SCCMec Type VIII</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000046"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000051"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">SCCMec Type VIII</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000066">
+        <rdfs:label xml:lang="en">SCCMec Type IX</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000043"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000054"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">SCCMec Type IX</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000067">
+        <rdfs:label xml:lang="en">SCCMec Type X</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000049"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000053"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">SCCMec Type X</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000068">
+        <rdfs:label xml:lang="en">SCCMec Type XI</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000040"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000050"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000056"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">SCCMec Type XI</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000069">
+        <rdfs:label xml:lang="en">IS431</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000973"/>
+        <obo:IAO_0000111 xml:lang="en">IS431</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">insertion sequence IS431</obo:IAO_0000118>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000070">
+        <rdfs:label xml:lang="en">IS1272</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000973"/>
+        <obo:IAO_0000111 xml:lang="en">IS1272</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">insertion sequence IS1272</obo:IAO_0000118>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/DOID#DOID_0060000 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/DOID#DOID_0060000">
@@ -1210,6 +1976,18 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0006113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1222,18 +2000,6 @@
                         <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0004096"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009275"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0006113"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/NCBITaxon"/>
