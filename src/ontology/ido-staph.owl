@@ -46,17 +46,17 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000283"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
     
 
@@ -300,12 +300,37 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16670 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670">
+        <rdfs:label xml:lang="en">peptide</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33839"/>
+        <obo:IAO_0000115 xml:lang="en">Amide derived from two or more amino carboxylic acid molecules (the same or different) by formation of a covalent bond from the carbonyl carbon of one to the nitrogen atom of another with formal loss of water. The term is usually applied to structures formed from alpha-amino acids, but it includes those derived from any amino carboxylic acid.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">peptide</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26130 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26130">
         <rdfs:label xml:lang="en">biological pigment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CHEBI#CHEBI_23367"/>
         <obo:IAO_0000115 xml:lang="en">An endogenous molecular entity that results in a colour of an organism as the consequence of the selective absorption of light.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33839 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33839">
+        <rdfs:label xml:lang="en">macromolecule</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CHEBI#CHEBI_23367"/>
+        <obo:IAO_0000115 xml:lang="en">A macromolecule is a molecule of high relative molecular mass, the structure of which essentially comprises the multiple repetition of units derived, actually or conceptually, from molecules of low relative molecular mass.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">macromolecule</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">polymer</obo:IAO_0000118>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -456,6 +481,19 @@
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#Quality"/>
         <obo:IAO_0000115 xml:lang="en">A spheroid quality inhering in a bearer by virtue of the bearer&#39;s resembling a ball (a sphere whose equatorial diameter is equal to the polar diameter).</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000001">
+        <rdfs:label xml:lang="en">protein</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">antithrombin III is a protein</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">An amino acid chain that is produced de novo by ribosome-mediated translation of a genetically-encoded mRNA.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">protein</obo:IAO_0000111>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
     </owl:Class>
     
 
@@ -938,6 +976,27 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/DOID#DOID_0060000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0002165"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realized_by"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -955,27 +1014,6 @@
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000001"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                                <owl:someValuesFrom>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0002165"/>
-                                    </owl:Restriction>
                                 </owl:someValuesFrom>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -1272,7 +1310,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000035">
         <rdfs:label xml:lang="en">coagulase</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CHEBI#CHEBI_23367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
@@ -1295,7 +1333,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000036">
         <rdfs:label xml:lang="en">staphylokinase</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CHEBI#CHEBI_23367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
@@ -1350,13 +1388,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000042"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000041"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
@@ -1999,6 +2037,99 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000076">
+        <rdfs:label xml:lang="en">SpA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A surface protein originally found in the cell wall of Staphylococcus aureus and is encoded by the spa gene.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">&#39;Protein A can bind to the Fc domain of immunoglobulin G (IgG) and inhibit opsonophagocytosis&#39;
+
+-- Surface protein adhesins of Staphylococcus aureus (Foster &amp; Hook)</obo:IAO_0000116>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Protein A</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">SpA</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Surface protein A</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Protein_A"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000077">
+        <rdfs:label xml:lang="en">FnBPA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A Staphylococcus aureus MSCRAMM cell surface-bound protein that binds to both fibronectin and fibrinogen.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">Fibronectin binding protein A</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">FnBPA</obo:IAO_0000111>
+        <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Fibronectin_binding_protein_A"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000078">
+        <rdfs:label xml:lang="en">ClfA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A fibrogen-binding protein anchored to the cell wall of Staphylococcus aureus.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">ClfA</obo:IAO_0000111>
+        <obo:IAO_0000118 xml:lang="en">Clumping factor A</obo:IAO_0000118>
+        <obo:IAO_0000116 xml:lang="en">We probably need clumping factor in IDO-Core</obo:IAO_0000116>
+        <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Clumping_factor_A"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/10036727"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000079">
+        <rdfs:label xml:lang="en">Cna</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A collagen-binding protein anchored to the cell wall of Staphylococcus aureus.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">Cna</obo:IAO_0000111>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/10036727"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/DOID#DOID_0060000 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/DOID#DOID_0060000">
@@ -2107,17 +2238,6 @@
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0004096"/>
-                    </owl:Restriction>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0006113"/>
             </owl:Restriction>
@@ -2132,6 +2252,17 @@
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0004096"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/NCBITaxon"/>
