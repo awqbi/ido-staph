@@ -23,7 +23,7 @@
      xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
      xmlns:GO="http://purl.org/obo/owl/GO#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ido/Sa.owl">
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-10</dc:date>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-22</dc:date>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor>R. Burke Squires</dc:contributor>
         <dc:creator>Lindsay Cowell</dc:creator>
