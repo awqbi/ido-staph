@@ -28,6 +28,7 @@
         <dc:contributor>R. Burke Squires</dc:contributor>
         <dc:creator>Lindsay Cowell</dc:creator>
         <dc:creator>Albert Goldfain</dc:creator>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-22</owl:versionInfo>
         <rdfs:comment xml:lang="en">IDO-Staph is an ontology covering entities specific to Staph aureus infectious diseases. IDO-Staph is one of the IDO extension ontologies and follows the design principles, policies, and best practices of both the IDO consortium and the OBO Foundry. </rdfs:comment>
         <rdfs:comment xml:lang="en">This ontology is in early development. Expect it to change.</rdfs:comment>
         <rdfs:seeAlso>http://www.infectiousdiseaseontology.org/Home.html</rdfs:seeAlso>
