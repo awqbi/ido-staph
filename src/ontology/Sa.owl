@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ido/ido-staph.owl#"
-     xml:base="http://purl.obolibrary.org/obo/ido/ido-staph.owl"
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ido/Sa.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ido/Sa.owl"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:DOID="http://purl.org/obo/owl/DOID#"
      xmlns:ido="http://purl.obolibrary.org/obo/ido/"
@@ -22,7 +22,7 @@
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
      xmlns:GO="http://purl.org/obo/owl/GO#">
-    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ido/ido-staph.owl">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ido/Sa.owl">
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-10</dc:date>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <dc:contributor>R. Burke Squires</dc:contributor>
@@ -57,7 +57,7 @@
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ido/ido-staph.owl#IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ido/Sa.owl#IAO_0000115"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
     
 
