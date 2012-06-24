@@ -24,14 +24,14 @@
      xmlns:GO="http://purl.org/obo/owl/GO#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ido/Sa.owl">
         <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-22</dc:date>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-22</owl:versionInfo>
+        <rdfs:seeAlso>http://www.infectiousdiseaseontology.org/Home.html</rdfs:seeAlso>
         <protege:defaultLanguage>en</protege:defaultLanguage>
+        <rdfs:comment xml:lang="en">IDO-Staph is an ontology covering entities specific to Staph aureus infectious diseases. IDO-Staph is one of the IDO extension ontologies and follows the design principles, policies, and best practices of both the IDO consortium and the OBO Foundry. </rdfs:comment>
         <dc:contributor>R. Burke Squires</dc:contributor>
         <dc:creator>Lindsay Cowell</dc:creator>
         <dc:creator>Albert Goldfain</dc:creator>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-22</owl:versionInfo>
-        <rdfs:comment xml:lang="en">IDO-Staph is an ontology covering entities specific to Staph aureus infectious diseases. IDO-Staph is one of the IDO extension ontologies and follows the design principles, policies, and best practices of both the IDO consortium and the OBO Foundry. </rdfs:comment>
         <rdfs:comment xml:lang="en">This ontology is in early development. Expect it to change.</rdfs:comment>
-        <rdfs:seeAlso>http://www.infectiousdiseaseontology.org/Home.html</rdfs:seeAlso>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ido.owl"/>
     </owl:Ontology>
     
@@ -47,18 +47,18 @@
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ido/Sa.owl#IAO_0000115"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000283"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
     <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ido/Sa.owl#IAO_0000115"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
     
 
@@ -320,6 +320,28 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_100241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_100241">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ciprofloxacin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000010"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Quinolin-4(1H)-one bearing cyclopropyl, carboxylic acid, fluoro and piperazin-1-yl substituents at positions 1, 3, 6 and 7, respectively.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_16670 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16670">
@@ -332,12 +354,78 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17334">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">penicillin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000010"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">&gt;Any member of the group of substituted penams containing two methyl substituents at position 2, a carboxylate substituent at position 3 and a carboxamido group at position 6.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17833 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17833">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gentamycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000010"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Any of a group of aminoglycoside antibiotics produced by fermentation of some Micromonospora spp.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_26130 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26130">
         <rdfs:label xml:lang="en">biological pigment</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CHEBI#CHEBI_23367"/>
         <obo:IAO_0000115 xml:lang="en">An endogenous molecular entity that results in a colour of an organism as the consequence of the selective absorption of light.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_28001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_28001">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vancomycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000010"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">&gt;A complex glycopeptide from Streptomyces orientalis. It inhibits a specific step in the synthesis of the peptidoglycan layer in the Gram-positive bacteria Staphylococcus aureus and Clostridium difficile.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -362,6 +450,116 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:label xml:lang="en">antibacterial drug</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000558"/>
         <obo:IAO_0000115 xml:lang="en">A drug used to treat or prevent antibacterial infections.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48923">
+        <rdfs:label xml:lang="en">erythromycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000010"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">Any of several wide-spectrum macrolide antibiotics obtained from actinomycete Saccharopolyspora erythraea (formerly known as Streptomyces erythraeus).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_600103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_600103">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">daptomycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000010"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A polypeptide comprising N-decanoyltryptophan, D-asparagine, aspartic acid, threonine, glycine, ornithine, aspartic acid, D-alanine, aspartic acid, glycine, D-serine, threo-3-methylglutamic acid and 3-anthraniloylalanine coupled in sequence and lactonised by condensation of the carboxylic acid group of the 3-anthraniloylalanine with the alcohol group of the threonine residue.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_63607 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_63607">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">linezolid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000010"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An organofluorine compound that consists of 1,3-oxazolidin-2-one bearing an N-3-fluoro-4-(morpholin-4-yl)phenyl group as well as an acetamidomethyl group at position 5. A synthetic antibacterial agent that inhibits bacterial protein synthesis by binding to a site on 23S ribosomal RNA of the 50S subunit and prevents further formation of a functional 70S initiation complex.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_6827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_6827">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methicillin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000010"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">&gt;A penicillin compound having a (6R)-2,6-dimethoxybenzamido substituent.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_7809 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_7809">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxacillin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/Sa_0000010"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A penicillin antibiotic carrying a 5-methyl-3-phenylisoxazole-4-carboxamide group at position 6.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -988,6 +1186,27 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/DOID#DOID_874"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/FMA#FMA_7195"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realized_by"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1005,27 +1224,6 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ido/Sa_0000001"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                                <owl:someValuesFrom>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/FMA#FMA_7195"/>
-                                    </owl:Restriction>
                                 </owl:someValuesFrom>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -2173,20 +2371,20 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000425"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000425"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A fibrogen-binding protein anchored to the cell wall of Staphylococcus aureus.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">ClfA</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">Clumping factor A</obo:IAO_0000118>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A fibrogen-binding protein anchored to the cell wall of Staphylococcus aureus.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">We probably need clumping factor in IDO-Core</obo:IAO_0000116>
         <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Clumping_factor_A"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
