@@ -23,7 +23,8 @@
      xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
      xmlns:GO="http://purl.org/obo/owl/GO#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ido/Sa.owl">
-        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-05-10</dc:date>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-06-22</dc:date>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-06-22</owl:versionInfo>
         <rdfs:seeAlso>http://www.infectiousdiseaseontology.org/Home.html</rdfs:seeAlso>
         <protege:defaultLanguage>en</protege:defaultLanguage>
         <rdfs:comment xml:lang="en">IDO-Staph is an ontology covering entities specific to Staph aureus infectious diseases. IDO-Staph is one of the IDO extension ontologies and follows the design principles, policies, and best practices of both the IDO consortium and the OBO Foundry. </rdfs:comment>
