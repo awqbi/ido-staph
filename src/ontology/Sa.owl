@@ -46,16 +46,16 @@
      -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ido/Sa.owl#IAO_0000115"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000283"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
@@ -82,6 +82,28 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000221 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000221">
+        <rdfs:label xml:lang="en">is quality measurement of</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">m is a quality measurement of q at t when q is a quality there is a measurement process p that has specified output m, a measurement datum, that is about q</obo:IAO_0000115>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000417 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000417">
+        <rdfs:label xml:lang="en">is quality measured as</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">2009/10/19 Alan Ruttenberg. Named &#39;junk&#39; relation useful in restrictions, but not a real instance relationship</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">inverse of the relation of is quality measurement of</obo:IAO_0000115>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
+    </owl:ObjectProperty>
     
 
 
@@ -673,6 +695,28 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000032">
+        <rdfs:label xml:lang="en">scalar measurement datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000109"/>
+        <obo:IAO_0000115 xml:lang="en">a scalar measurement datum is a measurement datum that is composed of two parts, numerals and a unit label.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109">
+        <rdfs:label xml:lang="en">measurement datum</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">A measurement datum is an information content entity that is a recording of the output of a measurement such as produced by a device.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MPATH_608 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_608">
@@ -691,6 +735,24 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:label xml:lang="en">organization</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
         <IAO_0000115 xml:lang="en">An organization is a continuant entity which can play roles,  has members, and has a set of organization rules.  Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.</IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0001514 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001514">
+        <rdfs:label>minimal inhibitory concentration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000221"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000470"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000116 xml:lang="en">&#39;is quality measurement of&#39; some &#39;drug susceptibility of infectious agent&#39; is a bit of a shortcut.  This is actually a quality measurement of a concentration which is a proxy for susceptibility in this particular experiment.</obo:IAO_0000116>
+        <obo:IAO_0000115>A scalar measurement datum that indicates the lowest concentration at which a specific compound significantly inhibits a process from occurring compared to in the absence of the compound.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </owl:Class>
     
@@ -975,9 +1037,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000119 xml:lang="en">OGMS-IDO disease-disorder-disease course logical schema</obo:IAO_0000119>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">An infectious disease that has a Staphylococcus aureus infectious disorder as its material basis.</obo:IAO_0000115>
-        <obo:IAO_0000119 xml:lang="en">OGMS-IDO disease-disorder-disease course logical schema</obo:IAO_0000119>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Staphylococcus aureus infectious disease</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -996,14 +1058,14 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_1280"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">&#39;Staphylococcus aureus infectious disorder&#39;</obo:IAO_0000111>
         <obo:IAO_0000116 xml:lang="en">A few IDO core issues inherited here:
 (1) &#39;has_part&#39; may not be the perfect relation, but the best RO currently offers
 (2) How to handle polymicrobial infectioous disorders.  Is every polymicrobial disorder of which staph is a part also an Sa infectious disorder? </obo:IAO_0000116>
         <obo:IAO_0000115 xml:lang="en">An infectious disorder that has as part a Staphylococcus aureus organism.</obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000119 xml:lang="en">OGMS-IDO disease-disorder-disease course logical schema</obo:IAO_0000119>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
     </owl:Class>
     
@@ -1021,10 +1083,10 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000111 xml:lang="en">&#39;Staphylococcus aureus infectious disease course&#39;</obo:IAO_0000111>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A disease course that is the realization of a Staphylococcus aureus infectious disease</obo:IAO_0000115>
         <obo:IAO_0000119 xml:lang="en">OGMS-IDO disease-disorder-disease course logical schema</obo:IAO_0000119>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
     </owl:Class>
     
@@ -1055,8 +1117,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000007"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">An organism of species Staphylococcus aureus that has resistance to beta-lactam antibiotics.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">MRSA</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Methicillin-resistant Staphylococcus aureus</obo:IAO_0000111>
@@ -1070,11 +1132,11 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000006">
         <rdfs:label xml:lang="en">Methicillin-susceptible Staphylococcus aureus</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_1280"/>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">An organism of Species Staphylococcus aureus that lacks resistance to beta-lactam antibiotics.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">MSSA</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">Methicillin-susceptible Staphylococcus aureus</obo:IAO_0000111>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">Methicillin-susceptible Staphylococcus aureus</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
         <obo:IAO_0000411 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000420"/>
     </owl:Class>
@@ -1086,10 +1148,10 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000007">
         <rdfs:label xml:lang="en">resistance to beta-lactam antibiotic</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <obo:IAO_0000115 xml:lang="en">An antibiotic resistance towards beta-lactam antibiotics</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">NOTE: IDO-CORE</obo:IAO_0000116>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">An antibiotic resistance towards beta-lactam antibiotics</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">beta-lactam resistance</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">resistance to beta-lactam antibiotic </obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
@@ -1102,10 +1164,10 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000008">
         <rdfs:label xml:lang="en">PBP2a-mediated resistance to beta-lactam antibiotic</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000007"/>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A drug resistance that inheres in an organism by virtue of the fact that the organism has as part the PBP2a-encoding gene MecA, the product of which has the disposition to synthesize peptidoglycan in the presence of beta-lactam antibiotics</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">PBP2a-mediated resistance to beta-lactam antibiotic</obo:IAO_0000111>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
     </owl:Class>
     
@@ -1116,8 +1178,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000009">
         <rdfs:label xml:lang="en">beta-lactamase-mediated resistance to beta-lactam antibiotic</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000007"/>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A resistance to beta-lactam antibiotics that inheres in an organism by virtue of the fact that it expresses a molecule with beta-lactamse activity.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">beta-lactamase-mediated resistance to beta-lactam antibiotic</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
@@ -1130,9 +1192,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000010">
         <rdfs:label xml:lang="en">antistaphylococcal disposition</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000442"/>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A disposition to kill or inhibit the growth of organisms of Genus Staphylococcus.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">antistaphylococcal disposition</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
     </owl:Class>
@@ -1195,8 +1257,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000014">
         <rdfs:label xml:lang="en">Staphyloxanthin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26130"/>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">Staphyloxanthin</obo:IAO_0000111>
         <obo:IAO_0000115 xml:lang="en">Staphyloxanthin is a carotenoid pigment that is produced by some strains of Staphylococcus aureus, and is responsible for the characteristic golden color that gives S. aureus its species name.</obo:IAO_0000115>
         <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Staphyloxanthin"/>
@@ -1210,27 +1272,6 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000015">
         <rdfs:label xml:lang="en">staphylococcal pneumonia</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/DOID#DOID_874"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000001"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                                <owl:someValuesFrom>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/FMA#FMA_7195"/>
-                                    </owl:Restriction>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realized_by"/>
@@ -1257,9 +1298,30 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/FMA#FMA_7195"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A bacterial pneumonia whose material basis is a Staphylococcus aureus infectious disorder in the lungs. Staphylococcal pneumonia is realized by a disease course that includes inflammation of the lungs. </obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A bacterial pneumonia whose material basis is a Staphylococcus aureus infectious disorder in the lungs. Staphylococcal pneumonia is realized by a disease course that includes inflammation of the lungs. </obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">staphylococcal pneumonia</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.freemd.com/staphylococcus-pneumonia/overview.htm"/>
@@ -1320,8 +1382,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">An infective endocarditis whose materiall basis is a Staphylococcus aureus infectious disorder of the endocardium. Staphylococcal infective endocarditis is realized by a disease course that includes inflammation of the endocardium. </obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An infective endocarditis whose materiall basis is a Staphylococcus aureus infectious disorder of the endocardium. Staphylococcal infective endocarditis is realized by a disease course that includes inflammation of the endocardium. </obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">staphylococcal infective endocarditis</obo:IAO_0000111>
         <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Infective_endocarditis"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -1377,10 +1439,10 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000020">
         <rdfs:label xml:lang="en">alpha toxin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000550"/>
-        <obo:IAO_0000115 xml:lang="en">An exotoxin that is the major cytotoxic agent released by Staphylococcus aureus.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: R. Burke Squires</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">An exotoxin that is the major cytotoxic agent released by Staphylococcus aureus.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: R. Burke Squires</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">alpha toxin</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">alpha-hemolysin</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Staphylococcus_aureus_alpha_toxin"/>
@@ -1395,9 +1457,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000021">
         <rdfs:label xml:lang="en">beta toxin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000550"/>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">An exotoxin produced by Staphylococcus aureus that is a form of sphingomyelinase.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON: R. Burke Squires</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Phospholipase C</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">beta toxin</obo:IAO_0000111>
@@ -1413,10 +1475,10 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000022">
         <rdfs:label xml:lang="en">delta toxin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000550"/>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">An exotoxin produced by Staphylococcus aureus that has a wide spectrum of cytolytic activity.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Differentia does not sufficiently differentiate this from other Sa toxins</obo:IAO_0000116>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON: R. Burke Squires</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">delta toxin</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">delta-hemolysin</obo:IAO_0000118>
@@ -1438,9 +1500,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">An exotoxin produced by Staphylococcus aureus that causes staphylococcal scalded skin syndrome.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Staphylococcal Exfoliative Toxin</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">exfoliatin</obo:IAO_0000111>
         <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Exfoliatin"/>
@@ -1455,8 +1517,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000024">
         <rdfs:label xml:lang="en">toxic shock syndrome toxin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000550"/>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">An exotoxin produced by Staphylococcus aureus that causes toxic shock syndrome.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117 xml:lang="en">PERSON: R. Burke Squires</obo:IAO_0000117>
         <obo:IAO_0000116 xml:lang="en">Should primary parent be superantigen?</obo:IAO_0000116>
@@ -1473,8 +1535,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:label xml:lang="en">Staphylococcal enterotoxin B</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000551"/>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">An enterotoxin produced by Staphylococcus aureus.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000116 xml:lang="en">Differentia does not differentiate this from other Sa enterotoxins.</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en">SEB</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">Staphylococcal enterotoxin B</obo:IAO_0000111>
@@ -1489,8 +1551,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000026">
         <rdfs:label xml:lang="en">staphylococcal sepsis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000636"/>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A sepsis that is a systemic inflammatory response to a Staphylococcus aureus infection.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">staphylococcal sepsis</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
@@ -1524,9 +1586,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019836"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An exotoxin produced by bacteria that causes lysis of red blood cells in vitro.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">An exotoxin produced by bacteria that causes lysis of red blood cells in vitro.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Term belongs in IDO-Core</obo:IAO_0000116>
         <obo:IAO_0000118 xml:lang="en">haemolysin</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">hemolysin</obo:IAO_0000111>
@@ -1548,11 +1610,11 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A cytotoxin that is capable of killing leukocytes.</obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: R. Burke Squires</obo:IAO_0000117>
-        <obo:IAO_0000116 xml:lang="en">Belongs in IDO-Core</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Encoded by putative leukocidin F subunit (YP_005731988.1) and putative leukocidin S subunit (YP_005731989.1) of Staphylococcus aureus subsp. aureus TW20</obo:IAO_0000116>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">Belongs in IDO-Core</obo:IAO_0000116>
+        <obo:IAO_0000117>PERSON: R. Burke Squires</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">leukocidin</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000423"/>
     </owl:Class>
@@ -1570,11 +1632,11 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000438"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000111>Panton-Valentine leukocidin</obo:IAO_0000111>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A leukocidin associated with increased virulence of certain strains (isolates) of Staphylococcus aureus.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">PVL</obo:IAO_0000118>
-        <obo:IAO_0000111>Panton-Valentine leukocidin</obo:IAO_0000111>
         <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Panton-Valentine_leukocidin"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
     </owl:Class>
@@ -1592,11 +1654,11 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000438"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A cytotoxin capable of inactivating or destroying leukocytes</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Disjoint from leukocidin?</obo:IAO_0000116>
         <obo:IAO_0000116 xml:lang="en">Encoded by luke gene in SA strain MW2 (http://www.uniprot.org/uniprot/Q7A0L0)</obo:IAO_0000116>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: R. Burke Squires</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">Disjoint from leukocidin?</obo:IAO_0000116>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">leukotoxin</obo:IAO_0000111>
         <obo:IAO_0000119 rdf:resource="http://medical-dictionary.thefreedictionary.com/leukotoxin"/>
@@ -1616,10 +1678,10 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: R. Burke Squires</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A protein produced by several microorganisms that enables the conversion of fibronogen to fibrin.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Encoded by SAOUHSC_00192 gene in SA strain NCTC 8325 (http://www.uniprot.org/uniprot/Q2G1D3)</obo:IAO_0000116>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">coagulase</obo:IAO_0000111>
         <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Coagulase"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
@@ -1638,10 +1700,10 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000438"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">An amino acid enzyme of Staphylococcus aureus that activates plasminogen to form plasmin.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: R. Burke Squires</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">An amino acid enzyme of Staphylococcus aureus that activates plasminogen to form plasmin.</obo:IAO_0000115>
         <obo:IAO_0000116 xml:lang="en">Encode by gene sak in SA strain Neuman (http://www.uniprot.org/uniprot/A6QIH0)</obo:IAO_0000116>
         <obo:IAO_0000111 xml:lang="en">staphylokinase</obo:IAO_0000111>
         <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Staphylokinase"/>
@@ -1655,9 +1717,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000038">
         <rdfs:label xml:lang="en">MecI</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <obo:IAO_0000111 xml:lang="en">MecI</obo:IAO_0000111>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">MecI</obo:IAO_0000111>
         <rdfs:seeAlso rdf:resource="http://purl.bioontology.org/ontology/MSH/C101640"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
     </owl:Class>
@@ -1697,8 +1759,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A mobile genetic element in Staphylococcus aureus that carries the central determinant for broad-spectrum beta-lactam resistance encoded by the mecA gene and has the following features: (1) carriage of mecA in a mec gene complex, (2) carriage of ccr gene(s) (ccrAB or ccrC) in a ccr gene complex, (3) integration at a specific site in the staphylococcal chromosome, referred to as the integration site sequence for SCC (ISS), which serves as a target for ccr-mediated recombination, and (4) the presence of flanking direct repeat sequences containing the ISS. </obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000116 xml:lang="en">AG: The mobility of the genetic element is a disposition and should not be the primary classification of SCCMec. </obo:IAO_0000116>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">SCCMec</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">Staphylococcal cassette chromosome mec</obo:IAO_0000118>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
@@ -1741,9 +1803,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000040"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A gene complex composed of mecA, its regulatory genes, and associated insertion sequences</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A gene complex composed of mecA, its regulatory genes, and associated insertion sequences</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">mec gene complex</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
@@ -1772,9 +1834,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000044">
         <rdfs:label xml:lang="en">ccr Type 2</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000041"/>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A2B2.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">ccr Type 2</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
@@ -1787,9 +1849,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000045">
         <rdfs:label xml:lang="en">ccr Type 3</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000041"/>
-        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A3B3.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A3B3.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">ccr Type 3</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
@@ -1802,8 +1864,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000046">
         <rdfs:label xml:lang="en">ccr Type 4</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000041"/>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A4B4.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">ccr Type 4</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -1817,9 +1879,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000047">
         <rdfs:label xml:lang="en">ccr Type 5</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000041"/>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes C1.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">ccr Type 5</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
@@ -1833,8 +1895,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:label xml:lang="en">ccr Type 6</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000041"/>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A5B3.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A5B3.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">ccr Type 6</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
@@ -1847,9 +1909,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000049">
         <rdfs:label xml:lang="en">ccr Type 7</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000041"/>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A1B6.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">ccr Type 7</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
@@ -1863,8 +1925,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:label xml:lang="en">ccr Type 8</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000041"/>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A1B3.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">ccr Type 8</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_TypesEN.html"/>
@@ -1877,9 +1939,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000051">
         <rdfs:label xml:lang="en">mec Class A</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000042"/>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A mec gene complex that contains mecA, the complete mecR1 and mecI regulatory genes upstream of mecA, and the hyper-variable region (HVR) and insertion sequence IS431 downstream of mecA.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">mec Class A</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
@@ -1892,9 +1954,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000052">
         <rdfs:label xml:lang="en">mec Class B</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000042"/>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A mec gene complex composed of mecA, a truncated mecR1 resulting from the insertion of IS1272 upstream of mecA, and HVR and IS431 downstream of mecA</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A mec gene complex composed of mecA, a truncated mecR1 resulting from the insertion of IS1272 upstream of mecA, and HVR and IS431 downstream of mecA</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">mec Class B</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
@@ -1907,9 +1969,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000053">
         <rdfs:label xml:lang="en">mec Class C1</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000042"/>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A mec gene complex that contains mecA and truncated mecR1 by the insertion of IS431 upstream of mecA, and HVR and IS431 downstream of mecA, such that the two IS431 insertion sequences are in the same orientation</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">mec Class C1</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
@@ -1922,9 +1984,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000054">
         <rdfs:label xml:lang="en">mec Class C2</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000042"/>
-        <obo:IAO_0000115 xml:lang="en">A mec gene complex that contains mecA and truncated mecR1 by the insertion of IS431 upstream of mecA, and HVR and IS431 downstream of mecA, such that the two IS431 insertion sequences are in reversed orientations.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A mec gene complex that contains mecA and truncated mecR1 by the insertion of IS431 upstream of mecA, and HVR and IS431 downstream of mecA, such that the two IS431 insertion sequences are in reversed orientations.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">mec Class C2</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
         <obo:IAO_0000119 rdf:resource="http://www.sccmec.org/Pages/SCC_ClassificationEN.html"/>
@@ -1952,8 +2014,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000056">
         <rdfs:label xml:lang="en">mec Class E</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000042"/>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">mec Class E</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
     </owl:Class>
@@ -2296,8 +2358,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A bacterial meningitis whose material basis is a Staphylococcus aureus infectious disorder.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A bacterial meningitis whose material basis is a Staphylococcus aureus infectious disorder.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">staphylococcal meningitis</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000120"/>
@@ -2327,8 +2389,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A septic arthritis whose material basis is a Staphylococcus aureus infectious disorder.</obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">staphylococcal septic arthritis</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
     </owl:Class>
@@ -2346,11 +2408,11 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">A surface protein originally found in the cell wall of Staphylococcus aureus and is encoded by the spa gene.</obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000116 xml:lang="en">&#39;Protein A can bind to the Fc domain of immunoglobulin G (IgG) and inhibit opsonophagocytosis&#39;
 
 -- Surface protein adhesins of Staphylococcus aureus (Foster &amp; Hook)</obo:IAO_0000116>
+        <obo:IAO_0000115 xml:lang="en">A surface protein originally found in the cell wall of Staphylococcus aureus and is encoded by the spa gene.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Protein A</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">SpA</obo:IAO_0000111>
@@ -2369,20 +2431,20 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000425"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000425"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A Staphylococcus aureus MSCRAMM cell surface-bound protein that binds to both fibronectin and fibrinogen.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">Fibronectin binding protein A</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">FnBPA</obo:IAO_0000111>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Fibronectin_binding_protein_A"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
     </owl:Class>
@@ -2397,20 +2459,20 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000425"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000425"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A fibrogen-binding protein anchored to the cell wall of Staphylococcus aureus.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">ClfA</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">Clumping factor A</obo:IAO_0000118>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000116 xml:lang="en">We probably need clumping factor in IDO-Core</obo:IAO_0000116>
         <rdfs:seeAlso rdf:resource="http://en.wikipedia.org/wiki/Clumping_factor_A"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
@@ -2430,9 +2492,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A collagen-binding protein anchored to the cell wall of Staphylococcus aureus.</obo:IAO_0000115>
         <obo:IAO_0000111 xml:lang="en">Cna</obo:IAO_0000111>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/10036727"/>
@@ -2584,8 +2646,20 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001499"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
                 <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2597,12 +2671,6 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                         <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0004096"/>
                     </owl:Restriction>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/NCBITaxon"/>
