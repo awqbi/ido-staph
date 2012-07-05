@@ -1,1 +1,35 @@
-TEST.
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ido/Sa/narsa.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ido/Sa/narsa.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:DOID="http://purl.org/obo/owl/DOID#"
+     xmlns:ido="http://purl.obolibrary.org/obo/ido/"
+     xmlns:snap="http://www.ifomis.org/bfo/1.1/snap#"
+     xmlns:ro="http://www.obofoundry.org/ro/ro.owl#"
+     xmlns:CHEBI="http://purl.org/obo/owl/CHEBI#"
+     xmlns:OBO_REL="http://purl.org/obo/owl/OBO_REL#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:TRANS="http://purl.org/obo/owl/TRANS#"
+     xmlns:UBERON="http://purl.org/obo/owl/UBERON#"
+     xmlns:CARO="http://purl.org/obo/owl/CARO#"
+     xmlns:NCBITaxon="http://purl.org/obo/owl/NCBITaxon#"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:FMA="http://purl.org/obo/owl/FMA#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:span="http://www.ifomis.org/bfo/1.1/span#"
+     xmlns:GO="http://purl.org/obo/owl/GO#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa.owl">
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-07-05</dc:date>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2012-07-05</owl:versionInfo>
+        <rdfs:seeAlso>http://code.google.com/p/ido-staph/</rdfs:seeAlso>
+        <protege:defaultLanguage>en</protege:defaultLanguage>
+        <dc:creator>Albert Goldfain</dc:creator>
+        <rdfs:comment xml:lang="en">An application ontology for annotating NARSA repository isolates with IDO-Staph.</rdfs:comment>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ido/Sa.owl"/>
+    </owl:Ontology>
+
+</rdf:RDF>
