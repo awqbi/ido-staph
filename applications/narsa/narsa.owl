@@ -646,7 +646,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000046">
         <rdfs:label xml:lang="en">resistance to levofloxacin</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000445"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
     </owl:Class>
     
 
@@ -655,7 +655,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000047">
         <rdfs:label xml:lang="en">resistance to tetracycline</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000445"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
     </owl:Class>
     
 
@@ -664,7 +664,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000048">
         <rdfs:label xml:lang="en">resistance to chloramphenicol</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000445"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
     </owl:Class>
     
 
