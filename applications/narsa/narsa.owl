@@ -122,6 +122,26 @@
     
 
 
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146005 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146005">
+        <rdfs:label xml:lang="en">tetracycline</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146533 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146533">
+        <rdfs:label xml:lang="en">chloramphenicol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147642 -->
 
     <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000147642">
@@ -142,12 +162,33 @@
     
 
 
+    <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148474 -->
+
+    <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148474">
+        <rdfs:label xml:lang="en">levofloxacin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
+        <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000171799 -->
 
     <owl:Class rdf:about="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000171799">
         <rdfs:label xml:lang="en">teicoplanin</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000562"/>
         <obo:IAO_0000412 rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000747 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000747">
+        <rdfs:label xml:lang="en">material sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
+        <obo:IAO_0000115 xml:lang="en">A material entity that has the material sample role.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </owl:Class>
     
 
@@ -328,6 +369,352 @@
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_28001"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000022">
+        <rdfs:label xml:lang="en">resistance to ciprofloxacin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <rdfs:seeAlso>http://ardb.cbcb.umd.edu/cgi/ssquery.cgi?db=B&amp;ab=64</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000023">
+        <rdfs:label xml:lang="en">resistance to clindamycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <rdfs:seeAlso>http://ardb.cbcb.umd.edu/cgi/ssquery.cgi?db=B&amp;ab=67</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000024">
+        <rdfs:label xml:lang="en">resistance to dalfopristin-quinupristin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000025">
+        <rdfs:label xml:lang="en">resistance to daptomycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <rdfs:seeAlso>http://ardb.cbcb.umd.edu/cgi/ssquery.cgi?db=B&amp;ab=73</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000026">
+        <rdfs:label xml:lang="en">resistance to erythromycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <rdfs:seeAlso>http://ardb.cbcb.umd.edu/cgi/ssquery.cgi?db=B&amp;ab=90</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000027">
+        <rdfs:label xml:lang="en">resistance to gentamicin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <rdfs:seeAlso>http://ardb.cbcb.umd.edu/cgi/ssquery.cgi?db=B&amp;ab=109</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000028">
+        <rdfs:label xml:lang="en">resistance to linezolid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <rdfs:seeAlso>http://ardb.cbcb.umd.edu/cgi/ssquery.cgi?db=B&amp;ab=130</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000029">
+        <rdfs:label xml:lang="en">resistance to oxacillin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <rdfs:seeAlso>http://ardb.cbcb.umd.edu/cgi/ssquery.cgi?db=B&amp;ab=170</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000030">
+        <rdfs:label xml:lang="en">resistance to penicillin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <rdfs:seeAlso>http://ardb.cbcb.umd.edu/cgi/ssquery.cgi?db=B&amp;ab=177</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000031">
+        <rdfs:label xml:lang="en">resistance to teicoplanin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <rdfs:seeAlso>http://ardb.cbcb.umd.edu/cgi/ssquery.cgi?db=B&amp;ab=226</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000032">
+        <rdfs:label xml:lang="en">resistance to trimethoprim sulfate</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <rdfs:seeAlso>http://ardb.cbcb.umd.edu/cgi/ssquery.cgi?db=B&amp;ab=240</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000033">
+        <rdfs:label xml:lang="en">resistance to vancomycin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000581"/>
+        <rdfs:seeAlso>http://ardb.cbcb.umd.edu/cgi/ssquery.cgi?db=B&amp;ab=245</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000036">
+        <rdfs:label xml:lang="en">blood material sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0000178"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000037">
+        <rdfs:label xml:lang="en">bone material sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0001474"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000038">
+        <rdfs:label xml:lang="en">peritoneal fluid material sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/FMA#FMA_16515"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000039">
+        <rdfs:label xml:lang="en">pleural fluid material sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/FMA#FMA_12273"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000040">
+        <rdfs:label xml:lang="en">pancreas material sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/FMA#FMA_7198"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000041">
+        <rdfs:label xml:lang="en">kidney material sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/FMA#FMA_7203"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000042">
+        <rdfs:label xml:lang="en">bursa material sample</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000747"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#derives_from"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/FMA#FMA_9692"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000043">
+        <rdfs:label xml:lang="en">levofloxacin susceptibility</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000470"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/obo#towards"/>
+                <owl:someValuesFrom rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000148474"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000044">
+        <rdfs:label xml:lang="en">tetracycline susceptibility</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000470"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/obo#towards"/>
+                <owl:someValuesFrom rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146005"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000045">
+        <rdfs:label xml:lang="en">chloramphenicol susceptibility</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000470"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/obo#towards"/>
+                <owl:someValuesFrom rdf:resource="http://evs.nci.nih.gov/ftp1/NDF-RT/NDF-RT.owl#N0000146533"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000046">
+        <rdfs:label xml:lang="en">resistance to levofloxacin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000445"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000047">
+        <rdfs:label xml:lang="en">resistance to tetracycline</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000445"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/Sa/NARSA_0000048">
+        <rdfs:label xml:lang="en">resistance to chloramphenicol</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000445"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/FMA#FMA_12273 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/FMA#FMA_12273">
+        <rdfs:label xml:lang="en">Pleural fluid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/FMA#FMA_16515 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/FMA#FMA_16515">
+        <rdfs:label xml:lang="en">Peritoneal fluid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/FMA#FMA_7198 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/FMA#FMA_7198">
+        <rdfs:label xml:lang="en">Pancreas</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/FMA#FMA_7203 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/FMA#FMA_7203">
+        <rdfs:label xml:lang="en">Kidney</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.org/obo/owl/FMA#FMA_9692 -->
+
+    <owl:Class rdf:about="http://purl.org/obo/owl/FMA#FMA_9692">
+        <rdfs:label xml:lang="en">Synovial bursa</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/CARO#CARO_0000000"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
     </owl:Class>
 </rdf:RDF>
 
