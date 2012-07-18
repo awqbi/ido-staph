@@ -46,16 +46,16 @@
      -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ido/Sa.owl#IAO_0000115"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ido/Sa.owl#IAO_0000115"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_0000283"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
-    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#defaultLanguage"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
@@ -410,6 +410,17 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16991 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16991">
+        <rdfs:label xml:lang="en">deoxyribonucleic acids</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33696"/>
+        <obo:IAO_0000115 xml:lang="en">High molecular weight, linear polymers, composed of nucleotides containing deoxyribose and linked by phosphodiester bonds; DNA contain the genetic information of organisms.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_17334 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17334">
@@ -558,6 +569,16 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A drug used to treat or prevent bacterial infections.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_4705 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_4705">
+        <rdfs:label xml:lang="en">double-stranded DNA</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16991"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
     </owl:Class>
     
@@ -900,6 +921,18 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:label xml:lang="en">organization</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://www.ifomis.org/bfo/1.1/snap#MaterialEntity"/>
         <IAO_0000115 xml:lang="en">An organization is a continuant entity which can play roles,  has members, and has a set of organization rules.  Members of organizations are either organizations themselves or individual people. Members can bear specific organization member roles that are determined in the organization rules. The organization rules also determine how decisions are made on behalf of the organization by the organization members.</IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000430">
+        <rdfs:label xml:lang="en">plasmid</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_4705"/>
+        <obo:IAO_0000115 xml:lang="en">plasmid = DNA and has_quality circular and has_function
+(is_realized_as some gene expression) GO:0010467</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
     </owl:Class>
     
@@ -1450,6 +1483,27 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/DOID#DOID_874"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/FMA#FMA_7195"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realized_by"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -1474,27 +1528,6 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000001"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                                <owl:someValuesFrom>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/FMA#FMA_7195"/>
-                                    </owl:Restriction>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A bacterial pneumonia whose material basis is a Staphylococcus aureus infectious disorder in the lungs. Staphylococcal pneumonia is realized by a disease course that includes inflammation of the lungs. </obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
@@ -1510,6 +1543,27 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000017">
         <rdfs:label xml:lang="en">staphylococcal infective endocarditis</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/DOID#DOID_0060000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
+                                <owl:someValuesFrom>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0002165"/>
+                                    </owl:Restriction>
+                                </owl:someValuesFrom>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realized_by"/>
@@ -1529,27 +1583,6 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                                             </owl:Restriction>
                                         </owl:intersectionOf>
                                     </owl:Class>
-                                </owl:someValuesFrom>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000001"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#located_in"/>
-                                <owl:someValuesFrom>
-                                    <owl:Restriction>
-                                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                                        <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/UBERON#UBERON_0002165"/>
-                                    </owl:Restriction>
                                 </owl:someValuesFrom>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -1694,13 +1727,13 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000028"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000427"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000427"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000028"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
@@ -1892,9 +1925,9 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000438"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000116 xml:lang="en">Encoded by SAOUHSC_00192 gene in SA strain NCTC 8325 (http://www.uniprot.org/uniprot/Q2G1D3)</obo:IAO_0000116>
         <obo:IAO_0000117>PERSON: R. Burke Squires</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A protein produced by several microorganisms that enables the conversion of fibronogen to fibrin.</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Encoded by SAOUHSC_00192 gene in SA strain NCTC 8325 (http://www.uniprot.org/uniprot/Q2G1D3)</obo:IAO_0000116>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">coagulase</obo:IAO_0000111>
@@ -2776,6 +2809,22 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000116"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#positively_regulates"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000025"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -2799,9 +2848,25 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#positively_regulates"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000113"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A global regulator that controls the synthesis of virulence factors and other exoproteins in Staphylococcus aureus.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">accessory gene regulator</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">agr</obo:IAO_0000111>
         <rdfs:seeAlso rdf:resource="http://purl.bioontology.org/ontology/MSH/C095698"/>
@@ -2868,14 +2933,14 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000093"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000025"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000025"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000093"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
@@ -2941,12 +3006,6 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000021"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -2959,6 +3018,12 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000021"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
@@ -3015,12 +3080,6 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000076"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -3033,6 +3092,12 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000076"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
@@ -3117,6 +3182,12 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -3129,12 +3200,6 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000078"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A gene in Staphylococcus aureus that encodes clumping factor A.</obo:IAO_0000115>
@@ -3154,12 +3219,6 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000024"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -3169,6 +3228,12 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
                         </owl:unionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000024"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
@@ -3404,6 +3469,119 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ido/SA_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000111">
+        <rdfs:label xml:lang="en">sec</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000112"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000113"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A gene in Staphylococcus aureus which encodes SEC (SEC1, SEC2, or SEC3) and is part of the pathogenicity island SaPI4.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The entC3 gene contains 801 bp and encodes a precursor protein of 267 amino acids (Hovde et al., 1990) containing a 27-residue signal peptide ( [Bohach and Schlievert, 1989] and [Hovde et al., 1990]). The entC3 gene is closely related to the gene for staphylococcal enterotoxin type C1, with 98% nucleotide sequence identity (Couch and Betley, 1989). SEC3 differs from enterotoxins C2 and C1 by four and nine amino acids, respectively.</rdfs:comment>
+        <obo:IAO_0000118 xml:lang="en">entC</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">sec</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11028954"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/SA_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000112">
+        <rdfs:label xml:lang="en">SaPI4</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000773"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/SA_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000113">
+        <rdfs:label xml:lang="en">staphylococcal enterotoxin C</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000109"/>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A class of staphylococcal enterotoxins that are SECs are a group of highly conserved proteins with significant immunological cross-reactivity. </obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">S. aureus isolated from different animal species produce a unique host-specific SEC (Marr et al., 1993), suggesting that toxin heterogeneity is due to selection for modified SEC sequences that facilitate the survival of S. aureus isolates in their respective hosts.</rdfs:comment>
+        <obo:IAO_0000118 xml:lang="en">SEC</obo:IAO_0000118>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11028954"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/SA_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000114">
+        <rdfs:label xml:lang="en">sed</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000115"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000116"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A gene in some Staphylococcus aureus which encodes staphylococcal enterotoxin D and is located on a 27.6-kilobase penicillinase plasmid pIB485.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">entD</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">sed</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11028954"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/SA_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000115">
+        <rdfs:label xml:lang="en">pIB485</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000430"/>
+        <obo:IAO_0000115 xml:lang="en">A 27.6-kilobase penicillinase plasmid that carries the gene encoding staphylococcal enterotoxin D.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">pIB485</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11028954"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ido/SA_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000116">
+        <rdfs:label xml:lang="en">staphylococcal enterotoxin D</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000109"/>
+        <obo:IAO_0000115 xml:lang="en">A staphylococcal enterotoxin that contains 258 amino acids, including a 30-amino-acid signal peptide and has the unique capability of forming dimers in the presence of Zn2+.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">SED</obo:IAO_0000118>
+        <obo:IAO_0000111 xml:lang="en">staphylococcal enterotoxin D</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11028954"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.org/obo/owl/DOID#DOID_0060000 -->
 
     <owl:Class rdf:about="http://purl.org/obo/owl/DOID#DOID_0060000">
@@ -3511,14 +3689,14 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009060"/>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009275"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#bearer_of"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001499"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009060"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3540,8 +3718,8 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009275"/>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#bearer_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001499"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/NCBITaxon"/>
