@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
     <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
-        <uri id="Automatically generated entry, Timestamp=1342189338035" name="http://purl.obolibrary.org/obo/ido/Sa.owl" uri="Sa.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1342198178132" name="http://purl.obolibrary.org/obo/ido/Sa.owl" uri="Sa.owl"/>
     </group>
 </catalog>
