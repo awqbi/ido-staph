@@ -512,7 +512,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS651_TSST">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000024"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000029027"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS651">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3106,7 +3106,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS701_TSST">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000024"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000029027"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS701">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -5133,7 +5133,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS740_TSST">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000024"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000029027"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS740">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
