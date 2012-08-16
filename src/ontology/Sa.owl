@@ -1403,6 +1403,83 @@ We don&#39;t have first_time_point and last_time_point as relations currently. T
     
 
 
+    <!-- http://purl.obolibrary.org/obo/PR_000000735 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000735">
+        <rdfs:label xml:lang="en">staphylococcal enterotoxin A</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000107"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A protein that is a translation product of the Staphylococcus aureus
+entA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <rdfs:comment xml:lang="en">SEA is the most common toxin implicated in staphylococcal food poisoning</rdfs:comment>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000000930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000000930">
+        <rdfs:label xml:lang="en">staphylococcal enterotoxin B</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000092"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A protein that is a translation product of the Staphylococcus aureus
+entB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000001299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001299">
+        <rdfs:label xml:lang="en">staphylococcal enterotoxin C1</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000111"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A protein that is a translation product of the Staphylococcus aureus
+entC1 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PR_000002216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002216">
+        <rdfs:label xml:lang="en">staphylococcal enterotoxin D</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000109"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000114"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">A protein that is a translation product of the Staphylococcus aureus
+entD gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/PR_000008010 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000008010">
@@ -1565,12 +1642,6 @@ sak gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000117"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000028"/>
             </owl:Restriction>
@@ -1579,6 +1650,12 @@ sak gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000427"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000117"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A protein that is a translation product of the Staphylococcus aureus
@@ -1633,6 +1710,12 @@ tst gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
             </owl:Restriction>
         </rdfs:subClassOf>
@@ -1640,12 +1723,6 @@ tst gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000100"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000425"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A protein that is a translation product of the Staphylococcus aureus
@@ -1678,6 +1755,12 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -1691,12 +1774,6 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000427"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000094"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A protein that is a translation product of the Staphylococcus aureus hla gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
@@ -1714,17 +1791,6 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realized_by"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019836"/>
-                    </owl:Restriction>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000095"/>
             </owl:Restriction>
@@ -1733,6 +1799,17 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000427"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realized_by"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019836"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A protein that is a translation product of the Staphylococcus aureus hlb gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
@@ -1749,17 +1826,6 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realized_by"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019836"/>
-                    </owl:Restriction>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000096"/>
             </owl:Restriction>
@@ -1768,6 +1834,17 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000427"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                <owl:someValuesFrom>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realized_by"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0019836"/>
+                    </owl:Restriction>
+                </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A protein that is a translation product of the Staphylococcus aureus hld gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
@@ -1803,8 +1880,8 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000104"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1815,8 +1892,8 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000104"/>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A protein that is a translation product of the Staphylococcus aureus fnbA gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
@@ -1831,6 +1908,54 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000029157">
         <rdfs:label xml:lang="en">HTH-type transcriptional regulator rot</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#negatively_regulates"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000094"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#negatively_regulates"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000120"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#negatively_regulates"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000095"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#positively_regulates"/>
@@ -1856,55 +1981,7 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000095"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#negatively_regulates"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000121"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#negatively_regulates"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000120"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#negatively_regulates"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000094"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -1926,14 +2003,14 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000098"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000098"/>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000437"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A protein that is a translation product of the Staphylococcus aureus spa gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
@@ -1959,22 +2036,6 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000120"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#positively_regulates"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000029023"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
@@ -1991,7 +2052,7 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000121"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000001299"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -2007,39 +2068,7 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
                             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000116"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#positively_regulates"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000025"/>
-                            </owl:Restriction>
-                        </owl:intersectionOf>
-                    </owl:Class>
-                </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#positively_regulates"/>
-                <owl:someValuesFrom>
-                    <owl:Class>
-                        <owl:intersectionOf rdf:parseType="Collection">
-                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000113"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000120"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -2056,6 +2085,54 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
                             <owl:Restriction>
                                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
                                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000029027"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#positively_regulates"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000002216"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#positively_regulates"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PR_000000930"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#positively_regulates"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000607"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_participant"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000121"/>
                             </owl:Restriction>
                         </owl:intersectionOf>
                     </owl:Class>
@@ -2694,52 +2771,6 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ido/SA_0000024 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000024">
-        <rdfs:label xml:lang="en">toxic shock syndrome toxin</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002204"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000101"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#has_disposition"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000427"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115 xml:lang="en">An exotoxin produced by Staphylococcus aureus that causes toxic shock syndrome.</obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117 xml:lang="en">PERSON: R. Burke Squires</obo:IAO_0000117>
-        <obo:IAO_0000116 xml:lang="en">Should primary parent be superantigen?</obo:IAO_0000116>
-        <obo:IAO_0000118 xml:lang="en">TSST-1</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">toxic shock syndrome toxin</obo:IAO_0000111>
-        <obo:IAO_0000119 rdf:resource="http://en.wikipedia.org/wiki/Toxic_shock_syndrome_toxin"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ido/SA_0000025 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000025">
-        <rdfs:label xml:lang="en">staphylococcal enterotoxin B</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000109"/>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A staphylococcal enterotoxin that is encoded by seb (entB) and contains 267 amino acids (Mr 31,400 dalton) and includes an N-terminal signal peptide of 27 amino acids</obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000116 xml:lang="en">Differentia does not differentiate this from other Sa enterotoxins.</obo:IAO_0000116>
-        <obo:IAO_0000118 xml:lang="en">SEB</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">staphylococcal enterotoxin B</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11028954"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ido/SA_0000026 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000026">
@@ -2826,10 +2857,10 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A cytotoxin capable of inactivating or destroying leukocytes</obo:IAO_0000115>
-        <obo:IAO_0000116 xml:lang="en">Encoded by luke gene in SA strain MW2 (http://www.uniprot.org/uniprot/Q7A0L0)</obo:IAO_0000116>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: R. Burke Squires</obo:IAO_0000117>
         <obo:IAO_0000116 xml:lang="en">Disjoint from leukocidin?</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Encoded by luke gene in SA strain MW2 (http://www.uniprot.org/uniprot/Q7A0L0)</obo:IAO_0000116>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">leukotoxin</obo:IAO_0000111>
         <obo:IAO_0000119 rdf:resource="http://medical-dictionary.thefreedictionary.com/leukotoxin"/>
@@ -2873,13 +2904,13 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000042"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000041"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000041"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000042"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
@@ -3034,8 +3065,8 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000049">
         <rdfs:label xml:lang="en">ccr Type 7</rdfs:label>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000041"/>
-        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A1B6.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">A ccr gene complex with ccr genes A1B6.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">ccr Type 7</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
@@ -3574,12 +3605,6 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000025"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000093"/>
             </owl:Restriction>
@@ -3901,6 +3926,12 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000000"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realized_by"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000477"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000664"/>
                 <owl:someValuesFrom>
                     <owl:Class>
@@ -3913,12 +3944,6 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
                         </owl:intersectionOf>
                     </owl:Class>
                 </owl:someValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#realized_by"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IDO_0000477"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
@@ -3944,34 +3969,12 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/phi_0000257"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000108"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 xml:lang="en">A gene in some Staphylococcus aureus that is carried by a temperate bacteriophage (in which the gene is called entA) and that  encodes Staphylococcal enterotoxin A.</obo:IAO_0000115>
         <rdfs:comment xml:lang="en">Hybridization analysis of DNA from entA-converting phage suggests that this phage integrated into the bacterial chromosome by circularization and reciprocal crossover, and that the entA gene is located near the phage attachment site. The sea gene is composed of 771 base pairs and encodes an enterotoxin A precursor of 257 amino acid residues (Huang et al., 1987)</rdfs:comment>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">entA</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">sea</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11028954"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ido/SA_0000108 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000108">
-        <rdfs:label xml:lang="en">staphylococcal enterotoxin A</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000109"/>
-        <obo:IAO_0000115 xml:lang="en">A staphylococcal enterotoxin encoded by the gene sea that is a monomeric two-domain protein composed of a 13-barrel and a 13-grasp motif.</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">SEA</obo:IAO_0000118>
-        <rdfs:comment xml:lang="en">SEA is the most common toxin implicated in staphylococcal food poisoning</rdfs:comment>
-        <obo:IAO_0000111 xml:lang="en">staphylococcal enterotoxin A</obo:IAO_0000111>
-        <rdfs:seeAlso rdf:resource="http://purl.bioontology.org/ontology/MSH/C026066"/>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11028954"/>
     </owl:Class>
@@ -4010,12 +4013,6 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000113"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#part_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000112"/>
             </owl:Restriction>
@@ -4041,22 +4038,6 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ido/SA_0000113 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000113">
-        <rdfs:label xml:lang="en">staphylococcal enterotoxin C</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000109"/>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000115 xml:lang="en">A class of staphylococcal enterotoxins that are SECs are a group of highly conserved proteins with significant immunological cross-reactivity. </obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <rdfs:comment xml:lang="en">S. aureus isolated from different animal species produce a unique host-specific SEC (Marr et al., 1993), suggesting that toxin heterogeneity is due to selection for modified SEC sequences that facilitate the survival of S. aureus isolates in their respective hosts.</rdfs:comment>
-        <obo:IAO_0000118 xml:lang="en">SEC</obo:IAO_0000118>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11028954"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ido/SA_0000114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000114">
@@ -4068,15 +4049,9 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000115"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002205"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000116"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A gene in some Staphylococcus aureus which encodes staphylococcal enterotoxin D and is located on a 27.6-kilobase penicillinase plasmid pIB485.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
+        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">entD</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">sed</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
@@ -4094,22 +4069,6 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000111 xml:lang="en">pIB485</obo:IAO_0000111>
-        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
-        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11028954"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ido/SA_0000116 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ido/SA_0000116">
-        <rdfs:label xml:lang="en">staphylococcal enterotoxin D</rdfs:label>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000109"/>
-        <obo:IAO_0000115 xml:lang="en">A staphylococcal enterotoxin that contains 258 amino acids, including a 30-amino-acid signal peptide and has the unique capability of forming dimers in the presence of Zn2+.</obo:IAO_0000115>
-        <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000118 xml:lang="en">SED</obo:IAO_0000118>
-        <obo:IAO_0000111 xml:lang="en">staphylococcal enterotoxin D</obo:IAO_0000111>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/11028954"/>
     </owl:Class>
@@ -7653,9 +7612,9 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">MW1118</obo:IAO_0000111>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A gene in staphylococcus aureus with product signal recognition particle-docking protein FtsY.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">MW1118</obo:IAO_0000111>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">SAV1235</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
@@ -7680,8 +7639,8 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A gene in staphylococcus aureus with product signal recognition particle protein.</obo:IAO_0000115>
+        <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000118 xml:lang="en">SAV1237</obo:IAO_0000118>
         <obo:IAO_0000111 xml:lang="en">ffh</obo:IAO_0000111>
@@ -8302,9 +8261,9 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
-        <obo:IAO_0000111 xml:lang="en">MW0700</obo:IAO_0000111>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A gene in staphylococcus aureus with product UDP-N-acetylenolpyruvoylglucosamine reductase, putative.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">MW0700</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">SAV0738</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000119 rdf:resource="http://www.biomedcentral.com/1471-2164/10/291/"/>
@@ -9788,9 +9747,9 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">MW0330</obo:IAO_0000111>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A gene in staphylococcus aureus with product acetyl-CoA acetyltransferase, putative.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">MW0330</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">SAV0354</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000119 rdf:resource="http://www.biomedcentral.com/1471-2164/10/291/"/>
@@ -10356,10 +10315,10 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
                 </owl:someValuesFrom>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000111 xml:lang="en">MW1007</obo:IAO_0000111>
         <obo:IAO_0000117>PERSON: Lindsay Cowell</obo:IAO_0000117>
         <obo:IAO_0000117>PERSON: Albert Goldfain</obo:IAO_0000117>
         <obo:IAO_0000115 xml:lang="en">A gene in staphylococcus aureus with product pantetheine-phosphate adenylyltransferase.</obo:IAO_0000115>
-        <obo:IAO_0000111 xml:lang="en">MW1007</obo:IAO_0000111>
         <obo:IAO_0000118 xml:lang="en">SAV1125</obo:IAO_0000118>
         <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000428"/>
         <obo:IAO_0000119 rdf:resource="http://www.biomedcentral.com/1471-2164/10/291/"/>
@@ -11107,6 +11066,18 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf rdf:resource="http://purl.org/obo/owl/NCBITaxon#NCBITaxon_2"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009060"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009275"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
                 <owl:someValuesFrom>
                     <owl:Restriction>
@@ -11119,25 +11090,13 @@ clfB gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009060"/>
+                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0006113"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.org/obo/owl/OBO_REL#bearer_of"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001499"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IDO_0000661"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0006113"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_part"/>
-                <owl:someValuesFrom rdf:resource="http://purl.org/obo/owl/GO#GO_0009275"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000412 rdf:resource="http://purl.org/obo/owl/NCBITaxon"/>
