@@ -24,7 +24,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
 </owl:DatatypeProperty>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS642_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS642">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -93,10 +93,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS642_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS643_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS643_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS643">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -146,7 +146,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS643_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS644_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS644">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -225,7 +225,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS644_to_Trimeth_sulfa"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS645_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS645">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -264,7 +264,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS645_to_Oxacillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS646_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS646">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -313,7 +313,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS646_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS647_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS647">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -342,7 +342,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS647_to_Tetracycline"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS648_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS648">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -391,7 +391,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS648_to_Oxacillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS649_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS649">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -450,7 +450,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS649_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS650_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS650">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -509,7 +509,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS650_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS651_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS651_TSST">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000029027"/>
@@ -572,7 +572,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS651_to_Oxacillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS652_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS652">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -611,7 +611,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS652_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS653_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS653">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -660,7 +660,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS653_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS654_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS654">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -699,10 +699,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS654_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS655_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS655_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS655">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -752,7 +752,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS655_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS656_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS656">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -811,10 +811,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS656_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS657_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS657_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS657">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -864,7 +864,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS657_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS658_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS658">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -923,10 +923,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS658_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS659_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS659_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS659">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -975,7 +975,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS659_to_Tetracycline"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS660_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS660">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1034,7 +1034,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS660_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS661_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS661">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1083,10 +1083,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS661_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS662_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS662_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS662">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1126,7 +1126,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS662_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS663_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS663">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1185,7 +1185,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS663_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS664_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS664">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1244,7 +1244,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS664_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS665_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS665">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1303,7 +1303,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS665_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS666_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS666">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1362,10 +1362,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS666_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS667_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS667_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS667">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1415,7 +1415,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS667_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS668_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS668">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1444,7 +1444,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS668_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS669_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS669">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1503,7 +1503,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS669_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS670_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS670">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1552,7 +1552,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS670_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS671_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS671">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1611,7 +1611,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS671_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS672_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS672">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1650,7 +1650,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS672_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS673_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS673">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1699,7 +1699,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS673_to_Oxacillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS674_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS674">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1738,7 +1738,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS674_to_Oxacillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS675_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS675">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1777,10 +1777,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS675_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS676_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS676_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS676">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1810,10 +1810,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS676_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS677_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS677_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS677">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1863,7 +1863,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS677_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS678_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS678">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1942,7 +1942,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS678_to_Trimeth_sulfa"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS679_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS679">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -1981,7 +1981,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS679_to_Oxacillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS680_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS680">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2030,7 +2030,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS680_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS681_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS681">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2089,7 +2089,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS681_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS682_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS682">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2128,10 +2128,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS682_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS683_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS683_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS683">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2171,10 +2171,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS683_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS684_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS684_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS684">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2244,7 +2244,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS684_to_Tetracycline"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS685_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS685">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2303,7 +2303,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS685_to_Trimeth_sulfa"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS686_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS686">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2362,10 +2362,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS686_to_Trimeth_sulfa"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS687_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS687_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS687">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2405,10 +2405,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS687_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS688_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS688_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS688">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2458,7 +2458,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS688_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS689_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS689">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2497,7 +2497,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS689_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS690_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS690">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2546,7 +2546,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS690_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS691_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS691">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2605,7 +2605,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS691_to_Trimeth_sulfa"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS692_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS692">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2654,10 +2654,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS692_to_Tetracycline"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS693_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS693_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS693">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2697,10 +2697,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS693_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS694_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS694_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS694">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2740,7 +2740,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS694_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS695_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS695">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2799,7 +2799,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS695_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS696_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS696">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2857,7 +2857,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS696_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS697_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS697">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2926,7 +2926,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS697_to_Rifampin_Rifampicin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS698_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS698">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -2985,7 +2985,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS698_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS699_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS699">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3044,7 +3044,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS699_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS700_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS700">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3103,7 +3103,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS700_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS701_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS701_TSST">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000029027"/>
@@ -3166,10 +3166,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS701_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS702_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS702_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS702">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3209,10 +3209,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS702_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS703_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS703_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS703">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3262,7 +3262,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS703_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS704_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS704">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3321,7 +3321,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS704_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS705_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS705">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3360,7 +3360,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS705_to_Oxacillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS706_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS706">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3409,10 +3409,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS706_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS707_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS707_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS707">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3442,7 +3442,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS707_to_Oxacillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS708_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS708">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3531,7 +3531,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS708_to_Trimeth_sulfa"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS709_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS709">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3580,7 +3580,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS709_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS710_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS710">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3639,7 +3639,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS710_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS711_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS711">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3698,7 +3698,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS711_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS712_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS712">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3747,7 +3747,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS712_to_Oxacillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS713_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS713">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3796,7 +3796,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS713_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS714_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS714">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3835,7 +3835,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS714_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS715_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS715">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3894,10 +3894,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS715_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS716_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS716_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS716">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -3946,7 +3946,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS716_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS717_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS717">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4005,7 +4005,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS717_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS718_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS718">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4054,7 +4054,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS718_to_Oxacillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS719_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS719">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4112,7 +4112,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS719_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS720_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS720">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4151,7 +4151,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS720_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS721_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS721">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4209,7 +4209,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS721_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS722_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS722">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4267,7 +4267,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS722_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS723_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS723">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4325,10 +4325,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS723_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS724_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS724_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS724">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4367,10 +4367,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS724_to_Oxacillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS725_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS725_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS725">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4429,10 +4429,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS725_to_Tetracycline"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS726_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS726_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS726">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4481,7 +4481,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS726_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS727_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS727">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4539,7 +4539,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS727_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS728_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS728">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4597,10 +4597,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS728_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS729_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS729_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS729">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4649,7 +4649,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS729_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS730_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS730">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4687,10 +4687,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS730_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS731_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS731_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS731">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4749,10 +4749,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS731_to_Tetracycline"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS732_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS732_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS732">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4781,10 +4781,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS732_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS733_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS733_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS733">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4833,7 +4833,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS733_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS734_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS734">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4871,7 +4871,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS734_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS735_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS735">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4929,10 +4929,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS735_to_Tetracycline"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS736_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS736_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS736">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -4971,7 +4971,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS736_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS737_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS737">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -5019,7 +5019,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS737_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS738_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS738">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -5077,10 +5077,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS738_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS739_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000060"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200060"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS739_PVL">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000033"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200033"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS739">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -5130,7 +5130,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS739_to_Tetracycline"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS740_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS740_TSST">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/PR_000029027"/>
@@ -5183,7 +5183,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS740_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS741_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000058"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200058"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS741">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
@@ -5231,7 +5231,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 	<OBO_REL:has_disposition rdf:resource="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#resistance_of_NRS741_to_Penicillin"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS745_SCCMec">
-	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/ido/SA_0000062"/>
+	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0200062"/>
 </owl:NamedIndividual>
 <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/ido/Sa/narsa-isolates.owl#NRS745">
 	<rdf:type rdf:resource="http://purl.obolibrary.org/obo/IDO_0000596"/>
